@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+	font-family: "Amarante", sans-serif;
+	background: #F0F0F0;
+}
+
+* {box-sizing: border-box;}
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px; }
+.col-1 {
+  width: 8.33%; }
+.col-2 {
+  width: 16.66%; }
+.col-3 {
+  width: 25%; }
+.col-4 {
+  width: 33.33%; }
+.col-5 {
+  width: 41.66%; }
+.col-6 {
+  width: 50%; }
+.col-7 {
+  width: 58.33%; }
+.col-8 {
+  width: 66.66%; }
+.col-9 {
+  width: 75%; }
+.col-10 {
+  width: 83.33%; }
+.col-11 {
+  width: 91.66%; }
+.col-12 {
+  width: 100%; }
+
+/* menu */  
+.menu {
+	display:flex;
+	justify-content: center;
+}
+
+.navbar {background: black;}
+
+header>nav>div>ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header>nav>div>ul>li {
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+}
+
+header>nav>div>ul>li>a {
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header>nav>div>ul>li:hover {
+	background: #4B4B4B;
+	font-size: 115%;
+}
+
+header>nav>div>ul>li>a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/* jumbotron */
+.jumbotron {
+	background: url(https://static.pexels.com/photos/270360/pexels-photo-270360.jpeg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	height: 45vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* sekcja opis */
+.ja {
+	padding: 60px 30px 30px 30px;
+	display: flex;
+	justify-content: right;
+}
+.ja>img {
+	border-radius: 10%;
+}
+
+h1, .montains {
+	width: 100%;
+	text-align: center;
+}
+h1 {
+	font-weight: 800;
+}
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-size: 22px;
+}
+.about p {
+	margin-right: 30px;
+}
+
+/* sekcja hobby + karuzela */
+.hobby {
+	padding: 30px 0 0px 0;
+}
+
+h1 {
+	font-weight: 800;
+}
+
+.carousel-inner {
+	height: 643px;
+	object-fit: cover;
+}
+
+/* umiejętności */
+.logo img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.programs {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skills h1 {
+	padding: 80px 0 40px 0;
+	font-weight: 800;
+	margin-top: 0;
+}
+
+.skills {
+	background: #E5E5E5;
+	padding-bottom: 40px;
+}
+
+/* Portfolio */
+.portfolio h1 {
+	padding: 50px 0 40px 0;
+	margin-top: 20px;
+	font-weight: 800;
+}
+
+.projects img {
+	height: 350px;
+	width: 437.5px;
+	margin: 20px;
+}
+
+.projects {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.projects h3 {
+	text-align: center;
+}
+
+.projects img:hover {
+	cursor: pointer;
+	color: rgba(0,0,0, 0.5);
+}
+
+.position {
+	width: 437.5px;
+	height: 350px; 
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	background: rgba(0,0,0, 0.5);
+}
+
+.efect:hover .position {
+	width: 437.5px;
+	height: 350px; 
+	display: block;
+	margin: 20px;
+}
+
+/* kontakt */
+footer {
+	background: #313332;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+footer h1 {
+	padding-bottom: 20px;
+}
+
+footer p {
+	font-size: 25px;
+}
+
+.icon-btn {
+	width: 75px;
+	height: 75px;
+	border: 0;
+	background: #FFFFFF;
+	border-radius: 50%;
+	margin: 7px;
+	cursor: pointer;
+	font-size: 40px;
+	line-height: 75px;
+}
+
+.facebook {
+	color: #3B5998;	
+}
+
+.github {
+	color: #4183C4;	
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);
+	color: #FFFFFF;
+}
+
+.facebook:hover {
+	background: #3B5998;
+}
+
+.github:hover {
+	background: #4183C4;
+}
+
+.social {
+	margin-bottom: 10px;
+}
+
+.profil {
+	margin-top: 70px;
+}
+
+/* copyright */
+.copyright {
+	background: #000;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+.copyright p {
+	font-size: 18px;
+}
